@@ -1,0 +1,22 @@
+google_analytics:
+
+title: Jacob Laboissonniere
+description: Your site description
+
+plugins:
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+      
+exclude: [
+  styles/index.css,
+  styles/syntax.css,
+  package.json,
+  package-lock.json,
+  postcss.config.js,
+  readme.md,
+]
