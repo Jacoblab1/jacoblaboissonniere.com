@@ -2,6 +2,8 @@ google_analytics:
 
 title: Jacob Laboissonniere
 description: Your site description
+baseurl: ""
+url: "https://jacoblaboissonniere.com"
 
 plugins:
   - jekyll-seo-tag
