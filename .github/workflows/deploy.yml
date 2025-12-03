@@ -33,7 +33,7 @@ jobs:
           node-version: '18'
           cache: 'npm'
       
-      - name: Install dependencies
+      - name: Install Node dependencies
         run: npm ci
       
       - name: Build CSS and Jekyll site
